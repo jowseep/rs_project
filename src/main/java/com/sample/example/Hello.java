@@ -43,7 +43,7 @@ public class Hello extends ActionSupport {
                     theStock.setCompany_name(us_stocks.getUs_ranking().get(i).get(3));
                     theStock.setCompany_type(us_stocks.getUs_ranking().get(i).get(4));
                     theStock.setBlank(us_stocks.getUs_ranking().get(i).get(5));
-                    theStock.setNa(us_stocks.getUs_ranking().get(i).get(5));
+                    theStock.setNa(us_stocks.getUs_ranking().get(i).get(6));
                     eachStock.add(theStock);
                 }
 

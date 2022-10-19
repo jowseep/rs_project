@@ -20,7 +20,6 @@
         <p>Company name: <s:property value="company_name"/></p>
         <p>Industry: <s:property value="company_type"/></p>
     </fieldset>
-    <s:property />
 </s:iterator>
 
 </body>
