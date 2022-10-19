@@ -8,19 +8,18 @@
 <body>
 <h1>US Stocks</h1>
 
-<!-- this is the search button -->
 <s:form action="search">
     <s:textfield name ="keyword" placeholder="Search"/>
     <s:submit/>
  </s:form>
-<!-- this is where the preview of US stocks -->
 <p>List of US Stocks</p>
 
 <s:iterator value="us_stocks">
-    <fieldset>
-        <p>Item <a href="#"><s:property value="us_ranking"/></a></p>
-        <!-- <p>Term <a href="#"><s:property value="term"/></a></p> -->
-    </fieldset>
+    <s:iterator value="us_ranking" var="index">
+        <fieldset>
+            <s:property value="#index"/>
+        </fieldset>
+    </s:iterator>
 </s:iterator>
 
 </body>
