@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.sample.example.LoginTest" time="0.365" errors="4" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\calla\Desktop\sample\sample"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\calla\Desktop\sample\sample"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\calla\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Users\calla\AppData\Local\Microsoft\WindowsApps;C:\Users\calla\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;;."/>
+    <property name="maven.conf" value="C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\calla"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="calla"/>
+    <property name="java.class.path" value="C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\calla\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.sample.example.LoginTest" name="testLoginConfig" time="0.132">
+    <error type="Unable">Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:509)
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44)
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236)
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216)
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496)
+	... 24 more
+Caused by: Action class [com.sample.example.Home] not found - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 27 more
+</error>
+    <system-out>2022-10-18 08:53:40,045 ERROR [main] dispatcher.Dispatcher (Dispatcher.java:508) - Dispatcher initialization failed
+com.opensymphony.xwork2.config.ConfigurationException: Unable to load configuration.
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58) [test-classes/:?]
+	at junit.framework.TestCase.runBare(TestCase.java:139) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.run(TestResult.java:125) [junit-4.12.jar:4.12]
+	at junit.framework.TestCase.run(TestCase.java:129) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.runTest(TestSuite.java:252) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.run(TestSuite.java:247) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+Caused by: com.opensymphony.xwork2.config.ConfigurationException: Action class [com.sample.example.Home] not found
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66) ~[struts2-core-2.5.22.jar:2.5.22]
+	... 27 more
+</system-out>
+  </testcase>
+  <testcase classname="com.sample.example.LoginTest" name="testLoginSubmit" time="0.094">
+    <error type="Unable">Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:509)
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44)
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236)
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216)
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496)
+	... 24 more
+Caused by: Action class [com.sample.example.Home] not found - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 27 more
+</error>
+    <system-out>2022-10-18 08:53:40,161 ERROR [main] dispatcher.Dispatcher (Dispatcher.java:508) - Dispatcher initialization failed
+com.opensymphony.xwork2.config.ConfigurationException: Unable to load configuration.
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58) [test-classes/:?]
+	at junit.framework.TestCase.runBare(TestCase.java:139) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.run(TestResult.java:125) [junit-4.12.jar:4.12]
+	at junit.framework.TestCase.run(TestCase.java:129) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.runTest(TestSuite.java:252) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.run(TestSuite.java:247) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+Caused by: com.opensymphony.xwork2.config.ConfigurationException: Action class [com.sample.example.Home] not found
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66) ~[struts2-core-2.5.22.jar:2.5.22]
+	... 27 more
+</system-out>
+  </testcase>
+  <testcase classname="com.sample.example.LoginTest" name="testLoginSubmitInput" time="0.067">
+    <error type="Unable">Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:509)
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44)
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236)
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216)
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496)
+	... 24 more
+Caused by: Action class [com.sample.example.Home] not found - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 27 more
+</error>
+    <system-out>2022-10-18 08:53:40,226 ERROR [main] dispatcher.Dispatcher (Dispatcher.java:508) - Dispatcher initialization failed
+com.opensymphony.xwork2.config.ConfigurationException: Unable to load configuration.
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58) [test-classes/:?]
+	at junit.framework.TestCase.runBare(TestCase.java:139) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.run(TestResult.java:125) [junit-4.12.jar:4.12]
+	at junit.framework.TestCase.run(TestCase.java:129) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.runTest(TestSuite.java:252) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.run(TestSuite.java:247) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+Caused by: com.opensymphony.xwork2.config.ConfigurationException: Action class [com.sample.example.Home] not found
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66) ~[struts2-core-2.5.22.jar:2.5.22]
+	... 27 more
+</system-out>
+  </testcase>
+  <testcase classname="com.sample.example.LoginTest" name="testConfig" time="0.072">
+    <error type="Unable">Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:509)
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44)
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236)
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216)
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Unable to load configuration. - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496)
+	... 24 more
+Caused by: Action class [com.sample.example.Home] not found - action - file:/C:/Users/calla/Desktop/sample/sample/target/classes/struts.xml:22:67
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 27 more
+</error>
+    <system-out>2022-10-18 08:53:40,306 ERROR [main] dispatcher.Dispatcher (Dispatcher.java:508) - Dispatcher initialization failed
+com.opensymphony.xwork2.config.ConfigurationException: Unable to load configuration.
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:959) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:463) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:496) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.util.StrutsTestCaseHelper.initDispatcher(StrutsTestCaseHelper.java:44) [struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.initDispatcher(StrutsTestCase.java:236) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at org.apache.struts2.StrutsTestCase.setUp(StrutsTestCase.java:216) [struts2-junit-plugin-2.5.22.jar:2.5.22]
+	at com.sample.example.ConfigTest.setUp(ConfigTest.java:58) [test-classes/:?]
+	at junit.framework.TestCase.runBare(TestCase.java:139) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) [junit-4.12.jar:4.12]
+	at junit.framework.TestResult.run(TestResult.java:125) [junit-4.12.jar:4.12]
+	at junit.framework.TestCase.run(TestCase.java:129) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.runTest(TestSuite.java:252) [junit-4.12.jar:4.12]
+	at junit.framework.TestSuite.run(TestSuite.java:247) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+Caused by: com.opensymphony.xwork2.config.ConfigurationException: Action class [com.sample.example.Home] not found
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.verifyAction(XmlConfigurationProvider.java:508) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:457) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:572) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:326) ~[struts2-core-2.5.22.jar:2.5.22]
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:108) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:196) ~[struts2-core-2.5.22.jar:2.5.22]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66) ~[struts2-core-2.5.22.jar:2.5.22]
+	... 27 more
+</system-out>
+  </testcase>
+</testsuite>
