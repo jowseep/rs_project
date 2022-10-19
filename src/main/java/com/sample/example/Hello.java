@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 import org.apache.commons.io.input.BOMInputStream;
 
@@ -14,6 +15,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class Hello extends ActionSupport {
 
+    ArrayList<IndividualStock> eachStock = new ArrayList<IndividualStock>();
     US_Stocks us_stocks;
     
     public String execute() {
@@ -25,16 +27,26 @@ public class Hello extends ActionSupport {
             if(hr.getResponseCode()==200) {
                 InputStream im = hr.getInputStream();
                 BOMInputStream bom = new BOMInputStream(im);
-                // StringBuffer sb = new StringBuffer();
                 BufferedReader br = new BufferedReader(new InputStreamReader(bom, StandardCharsets.UTF_8));
                 String line;
 
                 while((line=br.readLine())!=null) {
-                    // System.out.println(line);
-                    // line = br.readLine();
                     ObjectMapper mapper = new ObjectMapper();
                     us_stocks = mapper.readValue(line, US_Stocks.class);
                 }
+
+                for(int i=0; i<us_stocks.getUs_ranking().size(); i++) {
+                    IndividualStock theStock = new IndividualStock();
+                    theStock.setId(us_stocks.getUs_ranking().get(i).get(0));
+                    theStock.setStatus(us_stocks.getUs_ranking().get(i).get(1));
+                    theStock.setTicker(us_stocks.getUs_ranking().get(i).get(2));
+                    theStock.setCompany_name(us_stocks.getUs_ranking().get(i).get(3));
+                    theStock.setCompany_type(us_stocks.getUs_ranking().get(i).get(4));
+                    theStock.setBlank(us_stocks.getUs_ranking().get(i).get(5));
+                    theStock.setNa(us_stocks.getUs_ranking().get(i).get(5));
+                    eachStock.add(theStock);
+                }
+
                 br.close();
                 hr.disconnect();
                 im.close();
@@ -53,5 +65,12 @@ public class Hello extends ActionSupport {
         this.us_stocks = us_stocks;
     }
 
-    
+    public ArrayList<IndividualStock> getEachStock() {
+        return eachStock;
+    }
+
+    public void setEachStock(ArrayList<IndividualStock> eachStock) {
+        this.eachStock = eachStock;
+    }
+
 }

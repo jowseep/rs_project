@@ -14,12 +14,13 @@
  </s:form>
 <p>List of US Stocks</p>
 
-<s:iterator value="us_stocks">
-    <s:iterator value="us_ranking" var="index">
-        <fieldset>
-            <s:property value="#index"/>
-        </fieldset>
-    </s:iterator>
+<s:iterator value="eachStock" >
+    <fieldset>
+        <p>Ticker: <s:property value="ticker"/></p>
+        <p>Company name: <s:property value="company_name"/></p>
+        <p>Industry: <s:property value="company_type"/></p>
+    </fieldset>
+    <s:property />
 </s:iterator>
 
 </body>
