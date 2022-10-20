@@ -15,9 +15,9 @@
         <action name="index" class="com.sample.example.Hello">
             <result name="success">/index.jsp</result>
         </action>
-        <action name="search" class="com.sample.example.Hello" method="search">
+        <action name="search" class="com.sample.example.Search">
             <result name="success">/WEB-INF/example/SearchResult.jsp</result>
-            <result name="error">/WEB-INF/example/error.jsp</result>
+            <result name="individual">/WEB-INF/example/Stock.jsp</result>
         </action>
 
     </package>
