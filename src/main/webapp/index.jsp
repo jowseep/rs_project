@@ -16,7 +16,10 @@
 
 <s:iterator value="eachStock" >
     <fieldset>
-        <p>Ticker: <s:property value="ticker"/></p>
+        <s:url action="tickerChosen" var="chosenTicker">
+            <s:param name="keyword" value="ticker"/>
+        </s:url>
+        <h3><s:a href="%{chosenTicker}" style="text-decoration: none;"><s:property value="ticker"/></s:a></h3>
         <p>Company name: <s:property value="company_name"/></p>
         <p>Industry: <s:property value="company_type"/></p>
     </fieldset>

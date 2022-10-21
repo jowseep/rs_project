@@ -19,8 +19,12 @@
             <result name="success">/WEB-INF/example/SearchResult.jsp</result>
             <result name="individual">/WEB-INF/example/Stock.jsp</result>
         </action>
+         <action name="tickerChosen" class="com.sample.example.TickerChosen">
+            <result name="success" type="redirectAction">
+                <param name="actionName">search</param>
+                <param name="keyword">%{keyword}</param>
+            </result>
+        </action>
 
     </package>
-
-    <!-- Add addition packages and configuration here. -->
 </struts>
