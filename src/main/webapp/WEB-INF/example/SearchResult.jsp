@@ -2,7 +2,7 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title></title>
+    <title>Search results</title>
 </head>
 
 <body>
@@ -14,15 +14,14 @@
 
     <s:iterator value="eachStockOrWhatevah" >
     <fieldset>
-        <p>Ticker: <s:property value="ticker"/></p>
+        <s:url action="tickerChosen" var="chosenTicker">
+            <s:param name="keyword" value="ticker"/>
+        </s:url>
+        <h3><s:a href="%{chosenTicker}" style="text-decoration: none;"><s:property value="ticker"/></s:a></h3>
         <p>Company name: <s:property value="company_name"/></p>
         <p>Industry: <s:property value="company_type"/></p>
     </fieldset>
 </s:iterator>
 
-<script type="text/JavaScript">
-    var docTitle = document.title.replace("銘柄情報", "<s:property value = 'usStocksOrWhatevah.eachStockOrWhatevah.ticker'/>");
-    document.title = docTitle;
-</script>
 </body>
 </html>

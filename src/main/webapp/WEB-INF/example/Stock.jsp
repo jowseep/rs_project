@@ -14,11 +14,9 @@
         <s:textfield name ="keyword" placeholder="Search"/>
         <s:submit/>
     </s:form>
-
-    <p>This is the Individual stock page.</p>
     
     <s:iterator value="eachStockOrWhatevah" >
-        <h1><p>Ticker: <s:property value="ticker"/></p></h1>
+        <h1>Ticker: <s:property value="ticker"/></h1>
         <p>Company name: <s:property value="company_name"/></p>
         <p>Industry: <s:property value="company_type"/></p>
     </s:iterator>
