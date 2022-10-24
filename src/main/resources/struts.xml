@@ -18,6 +18,7 @@
         <action name="search" class="com.sample.example.Search">
             <result name="success">/WEB-INF/example/SearchResult.jsp</result>
             <result name="individual">/WEB-INF/example/Stock.jsp</result>
+            <result name="noResult">/WEB-INF/example/NoResult.jsp</result>
         </action>
          <action name="tickerChosen" class="com.sample.example.TickerChosen">
             <result name="success" type="redirectAction">

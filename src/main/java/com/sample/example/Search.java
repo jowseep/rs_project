@@ -20,6 +20,7 @@ public class Search extends ActionSupport {
     private String keyword;
     int count = 0;
     String individualStock = "individual";
+    String noResult = "noResult";
     
     public String execute() {
 
@@ -63,6 +64,8 @@ public class Search extends ActionSupport {
 
         if(count==1) {
             return individualStock;
+        } else if(count==0) {
+            return noResult;
         } else {
             return SUCCESS;
         }
